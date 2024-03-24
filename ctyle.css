@@ -1,0 +1,38 @@
+.start-finish:hover {
+    color: crimson;
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Raleway';
+    src: url(fonr/Raleway-Black.ttf);
+    src: url(fonr/Raleway-Black.ttf) format("ttf");
+}
+
+.iop {
+    font-family: "Exo 2", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+* {
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+.workbench {
+  font-family: "Workbench", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "BLED" 0,
+    "SCAN" 0;
+}
+.vertical {
+    vertical-align: bottom;
+    text-transform:initial
+    word-spacing
+}
