@@ -72,18 +72,23 @@
     background-color: darkviolet;
     font-size: 75px;
 }
+
 .item-three {
     order: -2;
 }
+
 .item-four {
-    order: -1;
+    order: 0;
 }
+
 .item-five {
-    order: -3;
+    order: 0;
 }
+
 .item-one {
-    order: -4;
+    order: 2;
 }
+
 .flex-container2 {
     display: flex;
 }
@@ -104,6 +109,7 @@
 .grow-0 {
     flex-grow: 0;
 }
+
 .flex-container {
     display: flex;
     width: 450px;
@@ -127,4 +133,40 @@
 
 .shrink-3 {
     flex-shrink: 3;
+}
+
+/* .spysok-odyag {
+    display: inline-flex;
+} */
+
+.odyag::after {}
+
+.odyag::after {}
+
+.odyag:hover::after {}
+
+.link-odyag {
+    display: inline-flex;
+    align-items: center;
+    color: currentColor;
+    text-decoration: none;
+    font-size: 32px;
+}
+
+.link-odyag::before,
+.link-odyag::after {
+    content: "";
+    width: 30px;
+    height: 30px;
+    background-size: contain;
+}
+
+.link-odyag::after {
+    display: none;
+    margin-left: 16px;
+    background-image: url("kotyk.png");
+    background-repeat: no-repeat;
+}
+.link-odyag:hover::after {
+    display: block;
 }
