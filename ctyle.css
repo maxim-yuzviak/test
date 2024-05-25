@@ -167,6 +167,88 @@
     background-image: url("kotyk.png");
     background-repeat: no-repeat;
 }
+
 .link-odyag:hover::after {
     display: block;
+}
+
+.grad {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: auto;
+    margin-right: auto;
+    outline: 1px solid black;
+    gap: 10px;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.grad-elements {
+    outline: 1px solid red;
+    flex-basis: calc(50% - 10px);
+    list-style: none;
+    height: 250px;
+}
+
+.l1 {
+    background-image: linear-gradient(to bottom, blue, yellow);
+}
+
+.l2 {
+    background-image: linear-gradient(to top, green, red);
+}
+
+.l3 {
+    background-image: linear-gradient(to left, orange, green);
+}
+
+.l4 {
+    background-image: linear-gradient(to right, black, darkorange);
+}
+
+.grad-elements1 {
+    outline: 1px solid red;
+    flex-basis: calc(50% - 10px);
+    list-style: none;
+    height: 250px;
+}
+
+.grad1 {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: auto;
+    margin-right: auto;
+    outline: 1px solid black;
+    gap: 10px;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.l11 {
+    background-image: linear-gradient(to bottom,
+            #f44336 15%,
+            #09792b 40%,
+            #00b9ff 65%,
+            #ffb800);
+}
+
+.l21 {
+    background-image: linear-gradient(to top, #f44336 15%,
+            #09792b 40%,
+            #00b9ff 65%,
+            #ffb800);
+}
+
+.l31 {
+    background-image: linear-gradient(to left, #f44336 15%,
+            #09792b 40%,
+            #00b9ff 65%,
+            #ffb800);
+}
+
+.l41 {
+    background-image: linear-gradient(to right, #f44336 15%,
+            #09792b 45%,
+            #00b9ff 65%,
+            #ffb800);
 }
