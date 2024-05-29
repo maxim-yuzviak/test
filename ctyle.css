@@ -1,4 +1,4 @@
-.start-finish:hover {
+/* .start-finish:hover {
     color: crimson;
     font-family: "Raleway", sans-serif;
     font-optical-sizing: auto;
@@ -19,7 +19,7 @@
     border-width: 5px;
     border-color: chartreuse;
     border-style: dotted;
-    background-color: gray;
+    background-color: gray; */
     /* padding: 10px;
     /* padding-top: 10px; */
     /* padding-left: 20px; */
@@ -28,9 +28,9 @@
     /* margin-top: 50px; */
     /* margin-right: 50px; */
     /* margin-bottom: 100px; */
-    margin: 50px 25px 100px 75px;
+    /* margin: 50px 25px 100px 75px; */
     /* padding: 50px 75px 100px 150px; */
-}
+/* }
 
 * {
     font-family: "Raleway", sans-serif;
@@ -139,7 +139,7 @@
     display: inline-flex;
 } */
 
-.odyag::after {}
+/* .odyag::after {}
 
 .odyag::after {}
 
@@ -251,4 +251,48 @@
             #09792b 45%,
             #00b9ff 65%,
             #ffb800);
-}
+} */
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 940px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .box {
+    height: 190px;
+    width: calc(50% - 20px);
+    margin: 10px;
+    box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.2), 0px 1px 1px rgba(0, 0, 0, 0.14),
+      0px 1px 3px rgba(0, 0, 0, 0.12);
+    border-radius: 4px;
+  }
+  /* bgi -> bgr -> bgp -> bgs */
+  /* cat */
+  .box:nth-child(1) {
+    background-color: #9c27b0;
+    background-image: url(img/2018-07-19-17-02-36.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100px;
+  }
+  /* bird */
+  .box:nth-child(2) {
+    background-color: #009688;
+    background-image: url(img/4959004.png);
+    background-repeat: repeat-x;
+    background-position: bottom;
+    background-size: 50px;
+  }
+  /* dog */
+  .box:nth-child(3) {
+    background-color: skyblue;
+    background-image: url("img/cat.png");
+    background-repeat: repeat-y;
+    background-position: left;
+  }
+  /* turtle */
+  .box:nth-child(4) {
+    background-color: #3f51b5;
+    background-image: url("img/pngtree-cute-green-toad-animal-png-image_11716943.png");
+  }
