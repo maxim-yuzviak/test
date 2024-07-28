@@ -5,87 +5,28 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Just test</title>
+    <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&family=Roboto+Condensed:ital,wght@0,900;1,900&display=swap"
-        rel="stylesheet">
-    <link rel="stylesheet" href="ctyle.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Workbench&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=DotGothic16&family=Edu+NSW+ACT+Foundation:wght@400..700&family=Jacquarda+Bastarda+9&family=Madimi+One&family=Orbitron:wght@400..900&family=Pacifico&family=Workbench&display=swap"
-        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
 </head>
 
-<body>
-    <header>
-        <h1 class="start-finish">Welcome to my site!</h1>
-        <p class="iop">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente dolor, quis quos ad qui eius
-            ratione porro unde doloremque consequatur, iure fuga cupiditate? Tenetur, ipsa explicabo minima quia fuga
-            praesentium!</p>
-        <p class="workbench">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum tempora dolor provident,
-            obcaecati maiores facere magni, illum porro beatae fugiat fugit deserunt, pariatur voluptas eligendi
-            reiciendis cumque earum nobis doloribus.</p>
-        <p class="vertical">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Totam possimus nam dolor sed natus
-            saepe officiis assumenda fugit est, quasi officia, sint voluptate non quia. Vel sed maiores deleniti.
-            Repudiandae?</p>
-        <p class="dotgothic16-regular"> あなたは何も知らない。
-            これは大企業の責任だ。
-            あなたは何をしているのですか？</p>
-        <script src="script.js"></script>
-        <label for="radio" class="yes">Yes</label>
-        <input type="radio" id="radio" value="Yes" name="yes" checked>
-        <label for="radio" class="no">No</label>
-        <input type="radio" id="radio" value="No" name="no">
-        <ul class="flex-container1">
-            <li class="flex-item1 item-one">1</li>
-            <li class="flex-item1 item-two">2</li>
-            <li class="flex-item1 item-three">3</li>
-            <li class="flex-item1 item-four">4</li>
-            <li class="flex-item1 item-five">5</li>
-        </ul>
-        <div class="flex-container2">
-            <div class="flex-item grow-2">Елемент 1</div>
-            <div class="flex-item grow-1">Елемент 2</div>
-            <div class="flex-item grow-0">Елемент 3</div>
+<body class="body">
+    <div class="btn-flex">
+        <button class="btn-open" data-modal-open>Відкрити модалку</button>
+    </div>
+    
+    <div class="backdrop is-hidden" data-modal>
+        <div class="modal">
+            <button class="btn" data-modal-close>Закрити</button>
+            <div class="txt"></div>
+            <p class="text">Я думаю, найкраще в тому, щоб бути дорослим, це можливість купувати цукерки коли і де
+                завгодно.</p>
+            <center class="gosling-text">© Райан Гослінг</center>
         </div>
-        <div class="flex-container">
-            <div class="flex-item shrink-2">Елемент 1</div>
-            <div class="flex-item shrink-1">Елемент 2</div>
-            <div class="flex-item shrink-3">Елемент 3</div>
-        </div>
-    </header>
-    <main>
-        <ul class="spysok-odyag">
-            <li class="odyag"><a href="" class="link-odyag">Boots</a></li>
-            <li class="odyag"><a href="" class="link-odyag">Shirts</a></li>
-            <li class="odyag"><a href="" class="link-odyag">Hats</a></li>
-            <li class="odyag"><a href="" class="link-odyag">Jackets</a></li>
-            <li class="odyag"><a href="" class="link-odyag">Jeans</a></li>
-        </ul>
-        <ul class="grad">
-            <li class="grad-elements l1">1</li>
-            <li class="grad-elements l2">2</li>
-            <li class="grad-elements l3">3</li>
-            <li class="grad-elements l4">4</li>
-        </ul>
-        <ul class="grad1">
-            <li class="grad-elements1 l11">1</li>
-            <li class="grad-elements1 l21">2</li>
-            <li class="grad-elements1 l31">3</li>
-            <li class="grad-elements1 l41">4</li>
-        </ul>
-        <div class="container">
-            <div class="box"></div>
-            <div class="box"></div>
-            <div class="box"></div>
-            <div class="box"></div>
-        </div>
-    </main>
+    </div>
+    </div>
+    <script src="script.js"></script>
 </body>
 
 </html>
