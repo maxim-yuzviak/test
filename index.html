@@ -1,32 +1,18 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Just test</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
-</head>
-
-<body class="body">
-    <div class="btn-flex">
-        <button class="btn-open" data-modal-open>Відкрити модалку</button>
+<article class="product">
+    <div class="product__overlay">
+      <img class="product__image" src="" />
     </div>
-    
-    <div class="backdrop is-hidden" data-modal>
-        <div class="modal">
-            <button class="btn" data-modal-close>Закрити</button>
-            <div class="txt"></div>
-            <p class="text">Я думаю, найкраще в тому, щоб бути дорослим, це можливість купувати цукерки коли і де
-                завгодно.</p>
-            <center class="gosling-text">© Райан Гослінг</center>
-        </div>
+   
+   
+    <div class="product__content">
+      <h2 class="product__name">Холодильник</h2>
+      <p class="product__description">Шикарний холодильник</p>
+      <a class="product__link" href="">Переглянути всі характеристики</a>
+   
+   
+      <div class="product__meta">
+        <p class="product__price">Ціна: 30000</p>
+        <p class="product__quantity">Залишилось: 8 штук</p>
+      </div>
     </div>
-    </div>
-    <script src="script.js"></script>
-</body>
-
-</html>
+   </article>
